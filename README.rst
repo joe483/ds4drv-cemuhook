@@ -5,7 +5,7 @@ ds4drv
 ds4drv is a Sony DualShock 4 userspace driver for Linux.
 
 * Discussions: https://groups.google.com/forum/#!forum/ds4drv
-* GitHub: https://github.com/chrippa/ds4drv
+* GitHub: https://github.com/joe483/ds4drv
 * PyPI: https://pypi.python.org/pypi/ds4drv
 
 Features
@@ -40,7 +40,7 @@ pip.
    sudo apt-get install python3-pip
 
    # Install (or update to) the latest version of ds4drv-cemuhook from GitHub
-   pip3 install -U https://github.com/TheDrHax/ds4drv-cemuhook/archive/master.zip
+   pip3 install -U https://github.com/joe483/ds4drv-cemuhook/archive/master.zip
 
 How to use
 ^^^^^^^^^^
@@ -135,7 +135,7 @@ Github and install it with:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/chrippa/ds4drv.git
+    $ git clone https://github.com/joe483/ds4drv.git
     $ cd ds4drv
     $ sudo python setup.py install
 
@@ -252,7 +252,7 @@ green on the second.
 Known issues/limitations
 ------------------------
 
-- `Bluetooth 2.0 dongles are known to have issues, 2.1+ is recommended. <https://github.com/chrippa/ds4drv/wiki/Bluetooth%20dongle%20compatibility>`_
+- `Bluetooth 2.0 dongles are known to have issues, 2.1+ is recommended. <https://github.com/joe483/ds4drv/wiki/Bluetooth%20dongle%20compatibility>`_
 - The controller will never be shut off, you need to do this manually by
   holding the PS button until the controller shuts off
 - No rumble support
